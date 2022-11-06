@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!---- <link rel="stylesheet" type="text/css" href="myStyleSheet.css" /> ---->
+
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: #666;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+        
+        /* Container for flexboxes */
+        section {
+          display: -webkit-flex;
+          display: flex;
+        }
+        
+        /* Style the navigation menu */
+        nav {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          background: #ccc;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        /* Style the content */
+        article {
+          -webkit-flex: 3;
+          -ms-flex: 3;
+          flex: 3;
+          background-color: #f1f1f1;
+          padding: 10px;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+          section {
+            -webkit-flex-direction: column;
+            flex-direction: column;
+          }
+        }
+        </style>
+</head>
+
+<body>
+    
+    <header>
+      <h2>BUBBLES</h2>
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><a href="./AboutUS.html">About Us</a></li>
+          <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <h1>No more boredom for your kids - Bubbles Network matches your kid with an activity or a buddy based on his/her interests and age.
+
+          We have categories like chess, painting, language clubs and a lot more!
+          Join now onlinebubbles.</h1>
+        <p><img src="images/Bubble.jpeg" id="indexpic">
+        <p> 
+          Bubbles Network makes planning a breeze whether organizing a soccer practice, scheduling a meetup, or having a virtual playdate with a friend.
+          
+          ​
+          
+          The platform allows to schedule a virtual or an in person get-together. Parents can search for their friends who are already members of the Parent Network platform and add them to their existing  friend circle there.
+          
+          ​
+          
+          It is the go to place for fun activities for kids indoors or outdoors.</p>
+        <p>Bubbles Network makes it easy to discover and sign up for interest-based clubs.
+
+ 
+
+          The clubs are led by wonderful parents, who want to meet other families, or verified partners - These partners are vetted by our team before they can publish on the Parent Network platform.
+          
+           
+          
+          Clubs help children explore new hobbies, activities or meet new friends.</p>
+      </article>
+    </section>
+    
+    <footer>
+        <p>Copyright 2022 by Bubbles All Rights Reserved.</p>
+    </footer>
+    
+    </body>
+
+
+    </html>
